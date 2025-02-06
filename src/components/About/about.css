@@ -1,0 +1,10 @@
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+.psiImg {
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+}

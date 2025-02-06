@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #f3e5f5; /* Cor de fundo violeta claro */
+    color: #4a148c; /* Cor do texto roxo escuro */
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    display: block;
+}
+
+nav {
+    background-color: #8e24aa; /* Cor de fundo da navegação violeta */
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0 0 0 10%; /* Remove a margem padrão */
+    display: flex; /* Exibe os itens da lista em linha */
+    justify-content: center;
+    width: 80%;
+  }

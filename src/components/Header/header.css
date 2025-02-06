@@ -1,0 +1,23 @@
+.cabecalho {
+    background-color: #6a1b9a; /* Cor de fundo do cabeçalho roxo */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+}
+
+.whatsapp-button, .insta-button, .sobre {
+    background-color: #6a1b9a; /* Cor do WhatsApp */
+    color: white; /* Cor do texto */
+    padding: 15px 25px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+    text-decoration: none; /* Sem sublinhado */
+    display: inline-block; /* Para que o link se comporte como um botão */
+    margin: 0 10px; /* Margem entre os botões */
+    flex: 1 1 auto;
+    min-width: 100px;
+    box-sizing: border-box;
+}

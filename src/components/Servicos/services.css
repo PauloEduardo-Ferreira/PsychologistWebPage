@@ -1,0 +1,9 @@
+.container span {
+    display: inline-block; /* Permite que os itens fiquem na mesma linha */
+    margin-right: 20px; /* Espaço entre os itens */
+}
+
+/* Remove a margem do último item */
+.container span:last-child {
+    margin-right: 0; /* Remove a margem do último item */
+}
