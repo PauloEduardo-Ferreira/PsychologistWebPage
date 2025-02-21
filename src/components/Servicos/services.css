@@ -5,5 +5,5 @@
 
 /* Remove a margem do último item */
 .container span:last-child {
-    margin-right: 0; /* Remove a margem do último item */
+    margin-right: 0; 
 }
